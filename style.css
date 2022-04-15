@@ -3,11 +3,11 @@
 }
 
 .body{
-    overflow:auto;
+    overflow: auto;
 }
 
 .page-wrap{
-    width: 1500px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -105,13 +105,14 @@ inline-size: 55%;
     margin: 20px;
 }
 .service-container{
-    justify-content: center;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
+    
 }
 .flex-container{
     display: flex;
     text-align: center;
-    margin-inline: 50px;
+    width: 80%;
+    margin: 0 auto;
 }
 .flex-container h5{
     font-size: 20px;
@@ -121,7 +122,7 @@ inline-size: 55%;
     background-color: rgb(81, 81, 96);
     color: rgb(252, 252, 252);
     border-radius: 15px;
-    font-size: 17px;
+    font-size: 15.5px;
     margin: 0rem 4rem 4rem 4rem;
     padding: 0rem 2rem 2rem 2rem;
 
@@ -129,10 +130,16 @@ inline-size: 55%;
 
 .move{
 margin-top: 6rem;
-padding-left: 7rem;
+padding-left: 13rem;
 padding-bottom: 2rem;
 color: rgb(25, 137, 171);
 font-size: 200%;
+}
+.footer{
+    background-color: rgb(25, 137, 171);
+    font-size: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .prompt-me{
     text-align: center;
@@ -141,12 +148,6 @@ font-size: 200%;
     color: white;
     padding-top: 3rem;
 
-}
-.footer{
-    background-color: rgb(25, 137, 171);
-    font-size: 20px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 
 .socail-media-icons{
@@ -161,7 +162,4 @@ width: 20%;
     text-align: center;
     color: white;
     font-weight: 400;
-}
-@media screen and (min-width: 768px) {
-    .body {display: flex;}
 }
