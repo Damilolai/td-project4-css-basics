@@ -63,13 +63,13 @@
     text-align: center;
     color: rgb(25, 137, 171);
     font-size: 20px;
-    overflow-wrap: break-word;
 }
 
 .occupation{
     font-size: medium;
     padding-bottom: 4rem;
-   
+   width: 30%;
+   margin: 0 auto;
 }
 .flag{
     height: 15px;
@@ -151,8 +151,10 @@ font-size: 200%;
 
 .socail-media-icons{
 display: flex;
-justify-content: center;
+margin: 0 auto;
 padding: 3rem 3rem 3rem 3rem;
+justify-content: space-between;
+width: 20%;
 }
 
 .nolat2022{
