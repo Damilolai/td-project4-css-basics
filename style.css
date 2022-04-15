@@ -1,0 +1,165 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body{
+    overflow:auto;
+}
+
+.page-wrap{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: rgb(25, 137, 171);
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    text-emphasis-color: white;
+    padding-right: 4em;
+}
+
+.NOLAT{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 8px;
+    padding-left: 8rem;
+    
+}
+
+.NOLAT a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white
+}
+
+.image-container{display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.img-cont{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.name{
+    text-align: center;
+    color: rgb(25, 137, 171);
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+
+.occupation{
+    font-size: medium;
+    padding-bottom: 4rem;
+   
+}
+.flag{
+    height: 15px;
+    width: 15px;
+}
+.container-body{
+    display: flex;
+    background-color: rgb(25, 137, 171);
+    justify-content: space-evenly;
+}
+
+.omit h3{
+color: rgb(255, 255, 255);
+inline-size: 55%;
+}
+
+.omit{
+    text-align: left;
+    padding: 4rem 4rem 4rem 4rem;
+    inline-size: 50%;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    inline-size: 33%;
+    
+
+}
+
+.commit{
+    text-align: left;
+    padding: 4rem 4rem 4rem 4rem;
+    inline-size: 19%;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+.service-container{
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+.flex-container{
+    display: flex;
+    text-align: center;
+    margin-inline: 50px;
+}
+.flex-container h5{
+    font-size: 20px;
+    border-bottom: none;
+}
+.flex-container > div{
+    background-color: rgb(81, 81, 96);
+    color: rgb(252, 252, 252);
+    border-radius: 15px;
+    font-size: 17px;
+    margin: 0rem 4rem 4rem 4rem;
+    padding: 0rem 2rem 2rem 2rem;
+
+}
+
+.move{
+margin-top: 6rem;
+padding-left: 7rem;
+padding-bottom: 2rem;
+color: rgb(25, 137, 171);
+font-size: 200%;
+}
+.prompt-me{
+    text-align: center;
+    display: block;
+    font-weight: bolder;
+    color: white;
+    padding-top: 3rem;
+
+}
+.footer{
+    background-color: rgb(25, 137, 171);
+    font-size: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.socail-media-icons{
+display: flex;
+justify-content: center;
+padding: 3rem 3rem 3rem 3rem;
+}
+
+.nolat2022{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+    .body {display: flex;}
+}
