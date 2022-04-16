@@ -7,7 +7,7 @@
 }
 
 .page-wrap{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -17,7 +17,9 @@
     padding: 1rem 2rem;
     background-color: rgb(25, 137, 171);
 }
-
+.nav:hover{
+    background-color: rgb(54, 176, 107);
+}
 .nav ul{
     display: flex;
     justify-content: space-around;
@@ -25,7 +27,9 @@
     text-emphasis-color: white;
     padding-right: 4em;
 }
-
+/*.nav ul:hover{
+    background-color: rgb(33, 161, 63);
+}*/
 .NOLAT{
     font-size: 1.7rem;
     font-weight: 500;
@@ -93,8 +97,6 @@ inline-size: 55%;
     color: rgb(255, 255, 255);
     margin: 20px;
     inline-size: 33%;
-    
-
 }
 
 .commit{
@@ -106,13 +108,18 @@ inline-size: 55%;
 }
 .service-container{
     padding-bottom: 3rem;
-    
-}
+} 
+
 .flex-container{
     display: flex;
     text-align: center;
     width: 80%;
     margin: 0 auto;
+}
+
+.flex-container div:hover{
+    background-color: rgb(25, 137, 171);
+    transition: 500ms;
 }
 .flex-container h5{
     font-size: 20px;
@@ -125,16 +132,16 @@ inline-size: 55%;
     font-size: 15.5px;
     margin: 0rem 4rem 4rem 4rem;
     padding: 0rem 2rem 2rem 2rem;
-
 }
 
 .move{
 margin-top: 6rem;
-padding-left: 13rem;
+padding-left: 15rem;
 padding-bottom: 2rem;
 color: rgb(25, 137, 171);
 font-size: 200%;
 }
+
 .footer{
     background-color: rgb(25, 137, 171);
     font-size: 20px;
@@ -147,7 +154,6 @@ font-size: 200%;
     font-weight: bolder;
     color: white;
     padding-top: 3rem;
-
 }
 
 .socail-media-icons{
